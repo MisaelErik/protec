@@ -1,0 +1,16 @@
+{
+  "name": "Panel de Control de Privacidad",
+  "short_name": "Privacidad Panel",
+  "description": "Todo lo que tu navegador sabe y puede hacer sin que te des cuenta",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
