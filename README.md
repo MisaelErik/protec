@@ -64,7 +64,10 @@ Los archivos estáticos se generan en la carpeta `dist/`.
 1. Asegúrate de tener una cuenta en [vercel.com](https://vercel.com)
 2. Conecta tu repositorio de GitHub
 3. Vercel detectará automáticamente que es un proyecto de Vite
-4. Elige las configuraciones predeterminadas y despliega
+4. En las opciones de build, asegúrate que:
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Development Command: `vite`
 5. Tu aplicación estará disponible en una URL como `https://tu-proyecto.vercel.app`
 
 ## Información que se recopila
